@@ -7,7 +7,7 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
     var vn = "https://cdn.jsdelivr.net/gh/Guru322/GURU-BOT@main/Assets/mp3/Alive.mp3"
     let url = "https://github.com/Guru322/GURU-BOT"
     let murl = "https://youtu.be/DibiLc17dh0?si=xp9bQ-_frEyDB1-i"
-    let img = "https://e1.pxfuel.com/desktop-wallpaper/161/221/desktop-wallpaper-red-neon-mask-boy-dark-neon-anime-boy-thumbnail.jpg"
+    let img = "https://i.pinimg.com/564x/53/05/f4/5305f4c7513b35fbf9117018204edff3.jpg"
     let con = { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
     let doc = {
         audio: {
